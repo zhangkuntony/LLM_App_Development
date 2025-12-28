@@ -1,2 +1,3 @@
+dotenv
 gradio
 openai

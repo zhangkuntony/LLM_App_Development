@@ -1,4 +1,4 @@
-# AI助手配置模块
+# LLM配置模块
 from openai import OpenAI
 from config import BASE_URL, API_KEY, MODEL_NAME  # 从根目录导入配置
 
