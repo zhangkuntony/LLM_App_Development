@@ -1,10 +1,6 @@
 # AI助手配置模块
 from openai import OpenAI
-try:
-    from config import BASE_URL, API_KEY, MODEL_NAME  # 从根目录导入配置
-    print("✅ 成功从根目录导入配置")
-except ImportError:
-    print("❌ 无法从根目录导入配置，请检查文件路径")
+from config import BASE_URL, API_KEY, MODEL_NAME  # 从根目录导入配置
 
 # 创建全局客户端实例
 client = OpenAI(

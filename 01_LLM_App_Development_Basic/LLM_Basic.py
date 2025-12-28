@@ -81,5 +81,5 @@ def chat_with_different_role():
 
 if __name__ == "__main__":
     first_ai_chat()
-    # chat_poem()
-    # chat_with_different_role()
+    chat_poem()
+    chat_with_different_role()

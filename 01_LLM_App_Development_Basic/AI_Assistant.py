@@ -1,4 +1,4 @@
-# 🏗️ 构建AI工具箱类
+# 构建AI工具箱类
 from typing import List, Union
 from openai.types.chat import (
     ChatCompletionSystemMessageParam,
@@ -6,7 +6,6 @@ from openai.types.chat import (
     ChatCompletionAssistantMessageParam
 )
 from LLM_Config import client, MODEL_NAME
-
 
 class AIAssistant:
     """多功能AI助手"""
@@ -71,7 +70,6 @@ class AIAssistant:
         self.conversation_history = []
         print("对话离职已清空")
 
-
 def run_basic_chat(ai_assistant):
     # 1. 基础对话
     print("基础对话测试：")
@@ -110,7 +108,6 @@ def main():
     run_translate(my_ai)
     run_code_helper(my_ai)
     run_creative_writing(my_ai)
-
 
 if __name__ == '__main__':
     main()
