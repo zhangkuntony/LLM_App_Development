@@ -1,3 +1,5 @@
 dotenv
 gradio
 openai
+pdfminer.six
+Pillow
